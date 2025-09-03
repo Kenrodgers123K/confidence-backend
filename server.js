@@ -10,7 +10,7 @@ const jwt = require('jsonwebtoken');
 
 // --- Import Schemas and Middleware ---
 const Product = require('./models/product');
-const User = require('./models/User');
+const User = require('./models/user');
 const { authenticateToken, authorizeRole } = require('./middleware/auth');
 
 const app = express();
